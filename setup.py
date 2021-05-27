@@ -36,7 +36,7 @@ setup(
     package_data={"snuba_sdk": ["py.typed"]},
     zip_safe=False,
     license="BSD",
-    install_requires=['dataclasses; python_version < "3.7"'],
+    install_requires=[],
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
